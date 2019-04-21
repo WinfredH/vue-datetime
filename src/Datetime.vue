@@ -94,8 +94,14 @@ export default {
       type: Object,
       default () {
         return {
-          cancel: 'Cancel',
-          ok: 'Ok'
+          cancelYear: 'Cancel',
+          cancelMonth: 'Cancel',
+          cancelDate: 'Cancel',
+          cancelTime: 'Cancel',
+          okYear: 'Ok',
+          okMonth: 'Ok',
+          okDate: 'Ok',
+          okTime: 'Ok'
         }
       }
     },
